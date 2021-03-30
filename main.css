@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  body,html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 126, 126);
+    color: rgb(243, 243, 243);
+    
+}
+  .row {
+    display: flex;
+  }
+
+  h1{
+      color:rgb(48, 201, 178);
+      margin-top: 130px;
+      margin-left: 400px;
+      margin-bottom: -160px;
+      font-size: 70px;
+  }
+
+.container {
+    float: center;
+    width: 33.33%;
+    padding: 105px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 140px;
+  }
+
+
+  button{
+     color: rgb(255, 255, 255);
+     background-color: rgb(245, 118, 118);
+     border-inline: 10px;
+     margin-left: 120px;
+     position: relative;
+     margin-top: 30px;
+     font-size: 30px;
+     font-family: 'Courier New', Courier, monospace;
+
+  }
+  
+  .newch{
+    position: absolute;
+    left: 26%;
+    bottom:10%;
+    width: 0rem;
+  }
+  
+  .newch.active{
+    width: 30rem;
+    display:flex;
+  }
+
+  .two{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    width: 0rem;
+  }
+  
+  .two.active{
+    width: 30rem;
+  }
+  
+  .last{
+    position: absolute;
+    left: 67%;
+    bottom: 10%;
+    width: 0rem;
+  }
+
+  .last.active{
+    width: 30rem;
+  }
+
+
+

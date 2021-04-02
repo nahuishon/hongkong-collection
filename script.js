@@ -45,34 +45,23 @@ function gotAllFilms(err) {
   // just loop through the books and console.log them
 function consoleLogFilms() {
     console.log("consoleLogFilms()");
-    films.forEach((Films) => {
-      console.log("films:", films);
+    films.forEach((Film) => {
+      console.log("Film:", film);
     });
   }
 
   // loop through airtable data, and display them onto our page
 function showFilms() {
     console.log("showFilms()");
-    films.forEach((films) => {
+    films.forEach((film) => {
     
 
         // add movie titles to page 
-         var movieName = document.createElement("h1");
-         movieName.innerText = movie.fields.movie_name;
-         document.body.appendChild(movieName);
+         var filmTitle = document.createElement("h1");
+         filmTitle.innerText = film.fields.film_title;
+         document.body.appendChild(filmTitle);
     
-         //add notes name to page
-         var movieNotes = document.createElement("p");
-         movieNotes.innerText = movie.fields.notes;
-         document.body.appendChild(movieNotes);
-
-
-         // adding artist image to page
-         var movieImage = document.createElement("img");
-         movieImage.src = movie.fields.movie_image[0].url;
-         document.body.appendChild(movieImage);
-
-
+         
     });
   }
   

@@ -61,7 +61,13 @@ function showFilms() {
          filmTitle.innerText = film.fields.film_title;
          document.body.appendChild(filmTitle);
     
-         
+         var nameOfDirector = document.createElement("p");
+         nameOfDirector.innerText = film.fields.director;
+         document.body.append(nameOfDirector);
+
+         var filmImage = document.createElement("img");
+         filmImage.scr = film.fields.film_image[0].url;
+         document.querySelector(".container").append(filmImage);
     });
   }
   

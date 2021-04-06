@@ -58,3 +58,10 @@ body {
   .film-container.active .film-title {
     display: block;
   }
+
+  .filter {
+    padding: 2rem;
+    cursor: pointer;
+  }
+  
+  

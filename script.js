@@ -64,12 +64,12 @@ function showFilms() {
          var filmTitle = document.createElement("h1");
          filmTitle.classList.add("film-title");
          filmTitle.innerText = film.fields.film_title;
-        filmContainer.append(filmTitle);
+         filmContainer.append(filmTitle);
     
          var nameOfDirector = document.createElement("p");
          nameOfDirector.classList.add("director");
          nameOfDirector.innerText = film.fields.director;
-        filmContainer.append(nameOfDirector);
+         filmContainer.append(nameOfDirector);
 
          var filmImage = document.createElement("img");
         filmImage.classList.add("film-image");
@@ -77,16 +77,29 @@ function showFilms() {
         filmContainer.append(filmImage);
 
         var filmCaption = document.createElement("p");
+        filmCaption.classList.add("caption");
         filmCaption.innerText = film.fields.film_caption;
         filmContainer.append(filmCaption);
 
-       filmContainer.addEventListener("click", function(event) {
-         filmDirector.classList.toggle("active");
+         filmContainer.addEventListener("click", function(event) {
          filmImage.classList.toggle("active");
          filmCaption.classList.toggle("active");
         });
     
-    
+        var filmGenre = film.fields.genre;
+        filmGenre.forEach(function(genre) {
+          filmContainer.classList.add(genre);
+        });
+
+        var filterDrama = document.querySelector(".js-drama");
+       filterDrama.addEventListener("click", function() {
+      if (filmContainer.classList.contains("Drama")) {
+        filmContainer.style.background = "red";
+      } else {
+        filmContainer.style.background = "white";
+      }
+    });
+
     });
   }
   

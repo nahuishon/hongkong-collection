@@ -100,6 +100,48 @@ function showFilms() {
       }
     });
 
+    var filterRomance = document.querySelector(".js-romance");
+    filterRomance.addEventListener("click", function() {
+      if (filmContainer.classList.contains("Romance")) {
+        filmContainer.style.background = "red";
+      } else {
+        filmContainer.style.background = "white";
+      }
+    });
+
+    var filterAction = document.querySelector(".js-action");
+    filterAction.addEventListener("click", function() {
+      if (filmContainer.classList.contains("Action")) {
+        filmContainer.style.background = "red";
+      } else {
+        filmContainer.style.background = "white";
+      }
+    });
+
+    var filterComedy = document.querySelector(".js-comedy");
+    filterComedy.addEventListener("click", function() {
+      if (filmContainer.classList.contains("Comedy")) {
+        filmContainer.style.background = "red";
+      } else {
+        filmContainer.style.background = "white";
+      }
+    });
+
+    var filterFantasy = document.querySelector(".js-fantasy");
+    filterFantasy.addEventListener("click", function() {
+      if (filmContainer.classList.contains("Fantasy")) {
+        filmContainer.style.background = "red";
+      } else {
+        filmContainer.style.background = "white";
+      }
+    });
+
+    // filter reset
+    var filterReset = document.querySelector(".js-reset");
+    filterReset.addEventListener("click", function() {
+      filmContainer.style.background = "white";
+    });
+
     });
   }
   

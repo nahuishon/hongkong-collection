@@ -15,7 +15,7 @@ var base = new Airtable({ apiKey: "keyAPSgVKXfGcLldO" }).base(
 base("films").select({}).eachPage(gotPageOfFilms, gotAllFilms);
 
 // an empty array to hold our book data
-const Films = [];
+const films = [];
 
 //callback function that receives our data
 function gotPageOfFilms(records, fetchNextPage) {
@@ -45,7 +45,7 @@ function gotAllFilms(err) {
   // just loop through the books and console.log them
 function consoleLogFilms() {
     console.log("consoleLogFilms()");
-    films.forEach((Film) => {
+    films.forEach((film) => {
       console.log("Film:", film);
     });
   }
@@ -66,7 +66,7 @@ function showFilms() {
          document.body.append(nameOfDirector);
 
          var filmImage = document.createElement("img");
-         filmImage.scr = film.fields.film_image[0].url;
+         filmImage.src= film.fields.film_image[0].url;
          document.querySelector(".container").append(filmImage);
     });
   }

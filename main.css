@@ -13,11 +13,11 @@ body {
     margin: 0;
   }
   
-  .film-description {
+  .Caption {
     display: none;
   }
   
-  .film-description.active {
+  .Caption.active {
     display: block;
   }
   
@@ -43,7 +43,7 @@ body {
     border-radius: 25px;
   }
   
-  .film-container {
+  .image-container {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;

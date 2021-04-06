@@ -62,10 +62,12 @@ function showFilms() {
 
         // add movie titles to page 
          var filmTitle = document.createElement("h1");
+         filmTitle.classList.add("film-title");
          filmTitle.innerText = film.fields.film_title;
         filmContainer.append(filmTitle);
     
          var nameOfDirector = document.createElement("p");
+         nameOfDirector.classList.add("director");
          nameOfDirector.innerText = film.fields.director;
         filmContainer.append(nameOfDirector);
 
@@ -79,7 +81,7 @@ function showFilms() {
         filmContainer.append(filmCaption);
 
        filmContainer.addEventListener("click", function(event) {
-          filmDescription.classList.toggle("active");
+         filmDirector.classList.toggle("active");
          filmImage.classList.toggle("active");
          filmCaption.classList.toggle("active");
         });

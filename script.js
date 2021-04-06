@@ -103,7 +103,7 @@ function showFilms() {
     var filterRomance = document.querySelector(".js-romance");
     filterRomance.addEventListener("click", function() {
       if (filmContainer.classList.contains("Romance")) {
-        filmContainer.style.background = "pink";
+        filmContainer.style.background = "black";
       } else {
         filmContainer.style.background = "rgb(190, 54, 54);";
       }

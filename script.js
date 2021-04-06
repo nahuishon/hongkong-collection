@@ -53,21 +53,38 @@ function consoleLogFilms() {
   // loop through airtable data, and display them onto our page
 function showFilms() {
     console.log("showFilms()");
-    films.forEach((film) => {
+    films.forEach(film => {
     
+      var filmContainer = document.createElement("div");
+    filmContainer.classList.add("film-container");
+    document.querySelector(".container").append(filmContainer);
+
 
         // add movie titles to page 
          var filmTitle = document.createElement("h1");
          filmTitle.innerText = film.fields.film_title;
-         document.body.appendChild(filmTitle);
+        filmContainer.append(filmTitle);
     
          var nameOfDirector = document.createElement("p");
          nameOfDirector.innerText = film.fields.director;
-         document.body.append(nameOfDirector);
+        filmContainer.append(nameOfDirector);
 
          var filmImage = document.createElement("img");
+        filmImage.classList.add("film-image");
          filmImage.src= film.fields.film_image[0].url;
-         document.querySelector(".container").append(filmImage);
+        filmContainer.append(filmImage);
+
+        var filmCaption = document.createElement("p");
+        filmCaption.innerText = film.fields.film_caption;
+        filmContainer.append(filmCaption);
+
+       filmContainer.addEventListener("click", function(event) {
+          filmDescription.classList.toggle("active");
+         filmImage.classList.toggle("active");
+         filmCaption.classList.toggle("active");
+        });
+    
+    
     });
   }
   

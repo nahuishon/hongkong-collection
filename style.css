@@ -1,0 +1,21 @@
+.onethree-container {
+    font-size: 3rem;
+    font-family: arial;
+    border: 1px solid black;
+    background: lightyellow;
+    display: flex;
+    overflow-x: auto;
+}
+
+.fifties-container {
+    font-size: 3rem;
+    font-family: arial;
+    border: 1px solid black;
+    background: lightpink;
+}
+
+.onethree-image {
+    width: 200px;
+    height: auto;
+    align-self: center;
+}

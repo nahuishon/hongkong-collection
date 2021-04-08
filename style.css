@@ -1,7 +1,32 @@
+
+body{
+    background-color: rgb(241, 93, 180);
+    background-image:url("video.png");
+    background-repeat: no-repeat;
+     background-size: 1200px 1100px;
+     background-position: center;
+     background-repeat: no-repeat;
+  background-attachment: fixed;
+     margin: 120px;
+ }
+ 
+
+
+.main-container{
+ text-align: center;
+ transform: rotate(-14deg);
+ margin-top: 480px;
+ margin-left: 40px;
+ font-size: 70px;
+ 
+}
+
+
+
 .onethree-container {
     font-size: 3rem;
     font-family: arial;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 174, 174);
     background: lightyellow;
     display: flex;
     overflow-x: auto;

@@ -55,7 +55,7 @@ function consoleLogFilms() {
 // loop through the books, create an h2 for each one, and add it to the page
 function showFilms() {
   console.log("showFilms()");
-  Films.forEach((film) => {
+  films.forEach((film) => {
 
     var filmYear = film.fields.filmYear;
     filmYear.forEach((year) => {
@@ -65,7 +65,7 @@ function showFilms() {
           // display filmimages
           var filmImage = document.createElement("img");
           filmImage.classList.add('onethree-image');
-          filmImage.src =  film.fields.onethreeImage[0].url;
+          filmImage.src =  film.fields.filmImage[0].url;
           document.querySelector(".onethree-container").appendChild(filmImage);
         }
 

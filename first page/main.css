@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial;
+    background-color:rgb(190, 54, 54);
+    
+  }
+  
+
+  h1 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: rgb(255, 253, 253);
+    margin-left: 60px;
+  }
+
+  .container {
+      background-color: rgb(190, 54, 54);
+    padding: 2rem;
+  }
+  
+  
+  
+  .Caption {
+    display: none;
+  }
+  
+  .Caption.active {
+    display: block;
+  }
+  
+  .film-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: none;
+  }
+  
+  .film-image.active {
+    display: block;
+  }
+  
+  .film-container {
+    width: 100%;
+    background-color: rgb(158, 49, 49);
+    color: rgb(202, 198, 198);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 35px;
+  }
+  
+  .image-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .film-container:hover {
+    border: 3px solid rgb(10, 10, 10);
+    border-radius: 25px;
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+  }
+  
+  .film-container.active .film-title {
+    display: block;
+  }
+
+  .filter {
+    padding: 3rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  
+  

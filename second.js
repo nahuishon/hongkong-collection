@@ -56,22 +56,13 @@ function consoleLogFilms() {
 function showFilms() {
   console.log("showFilms()");
   films.forEach((film) => {
-
     var filmYear = film.fields.filmYear;
-    filmYear.forEach((year) => {
-
-        if (year == 'onethree') {
-
+        if (filmYear == 'onethree') {
           // display filmimages
           var filmImage = document.createElement("img");
           filmImage.classList.add('onethree-image');
           filmImage.src =  film.fields.filmImage[0].url;
           document.querySelector(".onethree-container").appendChild(filmImage);
         }
-
-    })
-
   });
 }
-
-

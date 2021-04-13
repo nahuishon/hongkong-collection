@@ -73,7 +73,7 @@ function showFilms() {
 
          var filmImage = document.createElement("img");
         filmImage.classList.add("film-image");
-         filmImage.src= film.fields.film_image[0].url;
+         filmImage.src= film.fields.filmImage[0].url;
         filmContainer.append(filmImage);
 
         var filmCaption = document.createElement("p");

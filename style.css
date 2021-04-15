@@ -4,11 +4,11 @@
 
 
 body{
-    background: rgb(236, 88, 88);
+    background: rgb(205, 73, 238);
 
     background-image:url("videotape.png");
     background-repeat: no-repeat;
-     background-size: 1100px 800px;
+     background-size: 1200px 800px;
      background-position: center;
      background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,8 +18,8 @@ body{
  
   header {
     position:fixed;
-    top:10px;
-    left:30px;
+    top:50px;
+    left:10px;
     width: 100%;
     display: flex;
     justify-content:space-between ;
@@ -43,6 +43,7 @@ header ul li
 header ul li a 
 {
     position: relative;
+    font-size: 30px;
     margin: 0 65px;
     text-decoration: none;
     color:rgb(255, 255, 255);
@@ -93,10 +94,11 @@ header ul li a
 
 
 .btn-group a {
-    background-color: E92EE6;
-    border: 2px solid rgb(0, 0, 0);
-    margin-left: 620px;
-    color: white;
+    background-color:#E92EE6;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    margin-left: 560px;
+    color: rgb(0, 0, 0);
     padding: 25px 52px;
     text-align: center;
     text-decoration: none;
@@ -104,8 +106,9 @@ header ul li a
     cursor: pointer;
     width:250px;
     display: block;
+    
   }
 
   .btn-group a:hover{
-    background-color: #ff3c3c;
+    background-color: #f8a7e4;
   }

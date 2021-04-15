@@ -94,7 +94,7 @@ function showFilms() {
         var filterDrama = document.querySelector(".js-drama");
        filterDrama.addEventListener("click", function() {
       if (filmContainer.classList.contains("Drama")) {
-        filmContainer.style.background = "rgb(240, 180, 175)";
+        filmContainer.style.background = "black";
       } else {
         filmContainer.style.background = "rgb(190, 54, 54);";
       }
@@ -121,7 +121,7 @@ function showFilms() {
     var filterComedy = document.querySelector(".js-comedy");
     filterComedy.addEventListener("click", function() {
       if (filmContainer.classList.contains("Comedy")) {
-        filmContainer.style.background = "rgb(135, 168, 196);";
+        filmContainer.style.background = "black";
       } else {
         filmContainer.style.background = "rgb(190, 54, 54);";
       }
@@ -130,7 +130,7 @@ function showFilms() {
     var filterFantasy = document.querySelector(".js-fantasy");
     filterFantasy.addEventListener("click", function() {
       if (filmContainer.classList.contains("Fantasy")) {
-        filmContainer.style.background = "rgb(253, 178, 81);";
+        filmContainer.style.background = "black";
       } else {
         filmContainer.style.background = "rgb(190, 54, 54);";
       }

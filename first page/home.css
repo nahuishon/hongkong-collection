@@ -5,6 +5,7 @@ body {
     
   }
   
+  
 
   h1 {
     font-weight: normal;
@@ -59,9 +60,9 @@ body {
     grid-gap: 30px;
   }
   .film-container:hover {
-    border: 3px solid rgb(10, 10, 10);
+    border: 3px solid rgba(139, 86, 86, 0.726);
     border-radius: 25px;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(116, 64, 64);
     cursor: pointer;
   }
   

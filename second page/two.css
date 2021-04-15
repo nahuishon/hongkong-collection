@@ -4,7 +4,7 @@
 
 
 body{
-    background: rgb(205, 73, 238);
+    background: rgb(248, 239, 250);
     background-repeat: no-repeat;
      background-position: center;
      background-repeat: no-repeat;
@@ -16,22 +16,21 @@ header {
     position:fixed;
     top:50px;
     left:10px;
+    margin-bottom: 30px;
     width: 100%;
     display: flex;
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
     justify-content:space-between ;
     font-family: 'Cabin', sans-serif;
     align-items:center;
     transition:0.5s;
-    padding:10px 10px;
+    padding:10px 100px;
+    
 }
  
-header ul
-{
-    position: fixed;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
 header ul li
 {
     position: relative;
@@ -41,9 +40,8 @@ header ul li a
 {
     position: relative;
     font-size: 30px;
-    margin: 10 65px;
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:rgb(243, 94, 94);
     letter-spacing: 1px;
     font-weight: 300px;
 }

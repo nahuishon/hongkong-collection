@@ -57,12 +57,15 @@ function showFilms() {
   console.log("showFilms()");
   films.forEach((film) => {
     var filmYear = film.fields.filmYear;
-        if (filmYear == 'seven') {
+       
+    if (filmYear == "seven") {
           // display filmimages
+        
           var filmImage = document.createElement("img");
-          filmImage.classList.add('seven-image');
+          filmImage.classList.add("seven-image");
           filmImage.src =  film.fields.filmImage[0].url;
           document.querySelector(".seven-container").appendChild(filmImage);
-        }
-  });
-}
+
+              };
+            }
+            )};

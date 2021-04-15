@@ -5,7 +5,6 @@
 
 body{
     background: rgb(205, 73, 238);
-
     background-image:url("videotape.png");
     background-repeat: no-repeat;
      background-size: 1200px 800px;
@@ -96,10 +95,9 @@ header ul li a
 .btn-group a {
     background-color:#E92EE6;
     border: 2px solid rgb(255, 255, 255);
-    margin-left: 640px;
+    margin-left: 740px;
     color: rgb(0, 0, 0);
     padding: 25px 52px;
-    text-align: center;
     text-decoration: none;
     font-size: 36px;
     cursor: pointer;

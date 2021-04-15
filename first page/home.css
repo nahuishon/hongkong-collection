@@ -9,7 +9,7 @@ body {
 
   h1 {
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: rgb(255, 253, 253);
     margin-left: 60px;
   }
@@ -23,6 +23,7 @@ body {
   
   .Caption {
     display: none;
+    font-size: 70px;
   }
   
   .Caption.active {

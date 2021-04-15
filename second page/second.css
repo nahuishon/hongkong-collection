@@ -1,0 +1,33 @@
+.main-container{
+    text-align: center;
+    transform: rotate(-13deg);
+    margin-top: 480px;
+    margin-left: 40px;
+    font-size: 70px;
+    
+   }
+   
+   
+   
+   .onethree-container {
+       font-size: 3rem;
+       font-family: arial;
+       border: 1px solid rgb(255, 174, 174);
+       background: lightyellow;
+       display: flex;
+       overflow-x: auto;
+   }
+   
+   .fifties-container {
+       font-size: 3rem;
+       font-family: arial;
+       border: 1px solid black;
+       background: lightpink;
+       margin-top: 330PX;
+   }
+   
+   .onethree-image {
+       width: 200px;
+       height: auto;
+       align-self: center;
+   }

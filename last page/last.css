@@ -4,8 +4,9 @@
 
 
 body{
-    background: rgb(188, 159, 194);
+    background-image:url("/light.jpg");
     background-repeat: no-repeat;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
     background-attachment: fixed;
@@ -51,6 +52,44 @@ h1{
     color: antiquewhite;
 }
 
+.text-effect{
+    color: #fff6a9;
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px auto 0;
+    text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
+    position: relative;
+    animation: animate 2s ease-in-out infinite;
+    margin-top: 230px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+@keyframes animate{
+    20%, 24%, 55%{
+        color: #111;
+        text-shadow: none;
+    }
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100%{
+        color: #fff6a9;
+        text-shadow: 0 0 5px #ff3300, 0 0 15px #ff3c00, 0 0 20px #ff3c00, 0 0 40px #ff00b3, 0 0 60px #ff0000, 0 0 10px #ff00b3, 0 0 98px #ff0000;
+    }
+}
+@media only screen and (max-width: 990px){
+    .text-effect{ font-size: 100px; }
+}
+@media only screen and (max-width: 767px){
+    .text-effect{ font-size: 80px; }
+}
+@media only screen and (max-width: 479px){
+    .text-effect{ font-size: 60px; }
+}
+@media only screen and (max-width: 359px){
+    .text-effect{ font-size: 45px; }
+}
+
 
 h2 {
     font-weight: normal;
@@ -67,7 +106,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border: 3px solid rgb(238, 238, 238);
+    border: 1px solid rgb(231, 82, 82);
     flex-basis: 33%;
    }
    
@@ -84,3 +123,21 @@ h2 {
     height: auto;
     align-self: center;
    }
+
+   .other a {
+    
+    border: 2px solid rgb(206, 103, 103);
+   text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 25px 52px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width:170px;
+    float: left;
+    
+  }
+
+  .other a:hover{
+    background-color: #000000;
+  }

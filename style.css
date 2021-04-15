@@ -4,10 +4,10 @@
 
 
 body{
-    background: rgb(205, 73, 238);
+    background: rgb(32, 26, 26);
     background-image:url("videotape.png");
     background-repeat: no-repeat;
-     background-size: 1200px 800px;
+    background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
     background-attachment: fixed;
@@ -64,9 +64,8 @@ header ul li a
     text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
     position: relative;
     animation: animate 2s ease-in-out infinite;
-    margin-top: 230px;
-    margin-left: 90px;
-    margin-bottom: 180px;
+    margin-top: 280px;
+    margin-bottom: 100px;
 }
 @keyframes animate{
     20%, 24%, 55%{
@@ -91,21 +90,29 @@ header ul li a
     .text-effect{ font-size: 45px; }
 }
 
+.btn-group {
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
 
 .btn-group a {
     background-color:#E92EE6;
     border: 2px solid rgb(255, 255, 255);
-    margin-left: 740px;
+    margin-left: 640px;
+    text-align: center;
     color: rgb(0, 0, 0);
     padding: 25px 52px;
     text-decoration: none;
     font-size: 36px;
     cursor: pointer;
     width:170px;
+    align-items: center;
     display: block;
     
   }
 
+
   .btn-group a:hover{
-    background-color: #f8a7e4;
+    background-color: #f8a7e49f;
   }

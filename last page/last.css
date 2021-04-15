@@ -127,6 +127,7 @@ h2 {
    .other a {
     
     border: 2px solid rgb(206, 103, 103);
+    position: relative;
    text-align: center;
     color: rgb(255, 255, 255);
     padding: 25px 52px;
@@ -135,9 +136,14 @@ h2 {
     cursor: pointer;
     width:170px;
     float: left;
+    cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
     
   }
 
   .other a:hover{
-    background-color: #000000;
+    background-color: #3f3e3e77;
+    box-shadow: 0 12px 16px 0 rgba(214, 115, 115, 0.767),0 17px 50px 0 rgba(247, 154, 154, 0.19);
+
   }

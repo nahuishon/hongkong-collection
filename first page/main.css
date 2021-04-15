@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 body {
-    font-family: Arial;
+  font-family: 'Cabin', sans-serif;
     background-color:rgb(190, 54, 54);
     
   }

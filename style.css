@@ -98,23 +98,42 @@ header ul li a
 .btn-group a {
     background-color:#E92EE6;
     border: 5px solid rgba(15, 18, 61, 0.986);
-    margin-left: 700px;
-    text-align: center;
     color: rgb(0, 0, 0);
     padding: 25px 52px;
     text-decoration: none;
     font-size: 36px;
     cursor: pointer;
     width:170px;
-    align-items: center;
     display: block;
-    
+    position: relative;
+    align-items: center;
+    margin-left: 750px ;
   }
 
 
   .btn-group a:hover{
     background-color: #f8a7e49f;
   }
+
+  
+    @media only screen and (max-width: 2592px){
+
+        .btn-group a {
+            background-color:#E92EE6;
+            border: 5px solid rgba(15, 18, 61, 0.986);
+            color: rgb(0, 0, 0);
+            padding: 25px 52px;
+            text-decoration: none;
+            font-size: 36px;
+            cursor: pointer;
+            width:170px;
+            display: block;
+            position: relative;
+            align-items: center;
+            margin-left: 580px ;
+          }
+        }    
+
 
   @media only screen and (max-width: 992px){
  
@@ -128,7 +147,6 @@ header ul li a
         font-family: 'Cabin', sans-serif;
         font-size: 30px;
         font-weight: 600;
-        text-align: center;
         text-transform: capitalize;
         margin: 20px auto 0;
         text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
@@ -148,14 +166,14 @@ header ul li a
         font-size: 20px;
         cursor: pointer;
         width:90px;
-        align-items: center;
         display: block;
+        margin-left: 300px;
         
       }
       .btn-group {
-        text-align: center;
-        position: relative;
-        align-items: center;
+        
+        position: absolute;
+      
     }
       .btn-group a:hover{
         background-color: #f8a7e49f;

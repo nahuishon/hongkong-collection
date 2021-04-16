@@ -46,10 +46,13 @@ header ul li a
 }
    
 h1{
-    font-size: 30px;
+    font-size: 50px;
     position: relative;
     text-align: center;
     color: antiquewhite;
+    box-sizing: border-box;
+   
+    
 }
 
 .text-effect{
@@ -78,7 +81,7 @@ h1{
     }
 }
 @media only screen and (max-width: 990px){
-    .text-effect{ font-size: 100px; }
+    .text-effect{ font-size: 200px; }
 }
 @media only screen and (max-width: 767px){
     .text-effect{ font-size: 80px; }
@@ -101,13 +104,15 @@ h2 {
 
    .onethree-container {
     width: 100%;
-    padding: 3rem;
+    padding: 10rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border: 10px solid rgb(212, 0, 240);
+    border: 10px solid rgb(52, 14, 156);
+    background-color: #111;
     flex-basis: 33%;
+    border-radius: 60px;
    }
    
   
@@ -126,16 +131,18 @@ h2 {
 
    .other a {
     
-    border: 5px solid rgb(197, 42, 171);
+    border: 5px solid rgb(59, 18, 136);
+    background-color: rgb(88, 9, 119);
     position: relative;
    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 25px 52px;
+    color: rgb(177, 109, 109);
+    padding: 25px 32px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
-    width:170px;
-    float: left;
+    float: center;
+    border-radius: 10px;
+    margin-left: 30px;
     cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;

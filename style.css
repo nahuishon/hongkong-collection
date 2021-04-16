@@ -115,24 +115,7 @@ header ul li a
     background-color: #f8a7e49f;
   }
 
-  
-    @media only screen and (max-width: 2592px){
-
-        .btn-group a {
-            background-color:#E92EE6;
-            border: 5px solid rgba(15, 18, 61, 0.986);
-            color: rgb(0, 0, 0);
-            padding: 25px 52px;
-            text-decoration: none;
-            font-size: 36px;
-            cursor: pointer;
-            width:170px;
-            display: block;
-            position: relative;
-            align-items: center;
-            margin-left: 580px ;
-          }
-        }    
+   
 
 
   @media only screen and (max-width: 992px){

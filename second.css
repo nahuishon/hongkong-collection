@@ -4,7 +4,7 @@
 
 
 body{
-    background-image:url("/light.jpg");
+    background-color: #4e0a9c;
     background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -55,15 +55,15 @@ h1{
 .text-effect{
     color: #fff6a9;
     font-family: 'Cabin', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: 700;
     text-align: center;
     text-transform: capitalize;
-    margin: 20px auto 0;
+    margin: 10px auto 0;
     text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
     position: relative;
     animation: animate 2s ease-in-out infinite;
-    margin-top: 230px;
+    margin-top: 170px;
     margin-left: 90px;
     margin-bottom: 100px;
 }
@@ -106,7 +106,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border: 1px solid rgb(231, 82, 82);
+    border: 10px solid rgb(212, 0, 240);
     flex-basis: 33%;
    }
    
@@ -126,7 +126,7 @@ h2 {
 
    .other a {
     
-    border: 2px solid rgb(206, 103, 103);
+    border: 5px solid rgb(197, 42, 171);
     position: relative;
    text-align: center;
     color: rgb(255, 255, 255);

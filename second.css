@@ -110,7 +110,7 @@ h2 {
     flex-wrap: wrap;
     box-sizing: border-box;
     border: 10px solid rgb(52, 14, 156);
-    background-color: #111;
+    background-color: rgba(14, 2, 15, 0.911);
     flex-basis: 33%;
     border-radius: 60px;
    }
@@ -131,18 +131,18 @@ h2 {
 
    .other a {
     
-    border: 5px solid rgb(59, 18, 136);
-    background-color: rgb(88, 9, 119);
+    border: 8px solid rgba(111, 93, 146, 0.322);
+    background-color: rgba(139, 75, 139, 0.719);
     position: relative;
    text-align: center;
-    color: rgb(177, 109, 109);
+    color: rgb(253, 204, 204);
     padding: 25px 32px;
     text-decoration: none;
     font-size: 15px;
     cursor: pointer;
     float: center;
-    border-radius: 10px;
-    margin-left: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
     cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;

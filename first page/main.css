@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Cabin', sans-serif;
-    background-color:rgb(190, 54, 54);
+    background-color:rgb(185, 44, 204);
     
   }
   body{
@@ -56,7 +56,7 @@ header ul li a
   }
 
   .container {
-      background-color: rgb(190, 54, 54);
+      background-color: rgb(162, 1, 226);
     padding: 2rem;
   }
   
@@ -83,7 +83,7 @@ header ul li a
   
   .film-container {
     width: 100%;
-    background-color: rgb(158, 49, 49);
+    background-color: rgb(149, 49, 158);
     color: rgb(202, 198, 198);
     display: grid;
     grid-template-columns: 1fr 1fr;

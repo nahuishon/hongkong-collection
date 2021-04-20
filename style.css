@@ -93,6 +93,7 @@ header ul li a
     text-align: center;
     position: relative;
     align-items: center;
+    margin-left: -100px;
 }
 
 .btn-group a {
@@ -106,8 +107,7 @@ header ul li a
     width:170px;
     display: block;
     position: relative;
-    align-items: center;
-    margin-left: 650px ;
+    margin-left: 550px ;
   }
 
 

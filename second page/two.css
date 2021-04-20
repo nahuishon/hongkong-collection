@@ -4,7 +4,7 @@
 
 
 body{
-    background-color: #662daf;
+    background-color: rgb(255, 60, 0);
     background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -15,6 +15,7 @@ body{
 
 header {
     position:fixed;
+    background-color: rgb(255, 60, 0);;
     top:50px;
     left:10px;
     margin-bottom: 30px;
@@ -23,7 +24,7 @@ header {
     position: relative;
     font-size: 30px;
     text-decoration: none;
-    color:rgb(230, 117, 117);
+    color:rgb(0, 0, 0);
     justify-content:space-between ;
     font-family: 'Cabin', sans-serif;
   
@@ -40,7 +41,7 @@ header ul li a
     position: relative;
     font-size: 30px;
     text-decoration: none;
-    color:rgb(165, 76, 76);
+    color:rgb(0, 0, 0);
     letter-spacing: 1px;
     font-weight: 300px;
 }
@@ -55,18 +56,19 @@ h1{
 .text-effect{
     color: #fff6a9;
     font-family: 'Cabin', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 200;
     text-align: center;
     text-transform: capitalize;
     margin: 20px auto 0;
     text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
     position: relative;
     animation: animate 2s ease-in-out infinite;
-    margin-top: 230px;
+    margin-top:1px;
     margin-left: 90px;
-    margin-bottom: 100px;
+    margin-bottom: -70px;
 }
+
 @keyframes animate{
     20%, 24%, 55%{
         color: #111;
@@ -106,7 +108,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border: 1px solid rgb(231, 82, 82);
+    border: 1px solid rgb(8, 8, 8);
     flex-basis: 33%;
    }
    
@@ -122,15 +124,14 @@ h2 {
 
    .other a {
     
-    border: 2px solid rgb(206, 103, 103);
+    border: 2px solid rgba(206, 103, 103, 0);
     position: relative;
    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 25px 52px;
+    color: rgb(0, 0, 0);
+    padding: 15px 42px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
-    width:170px;
     float: left;
     cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */

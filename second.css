@@ -4,7 +4,7 @@
 
 
 body{
-    background-color: #4e0a9c;
+    background-color: rgba(230, 196, 196, 0.911);
     background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -15,19 +15,15 @@ body{
 
 header {
     position:fixed;
-    top:50px;
-    left:10px;
-    margin-bottom: 30px;
     width: 100%;
     display: flex;
     position: relative;
     font-size: 30px;
+    background-color: rgb(240, 78, 78);
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:rgb(252, 235, 235);
     justify-content:space-between ;
-    font-family: 'Cabin', sans-serif;
-  
-    
+    font-family: 'Cabin', sans-serif; 
 }
  
 header ul li
@@ -45,31 +41,21 @@ header ul li a
     font-weight: 300px;
 }
    
-h1{
-    font-size: 50px;
-    position: relative;
-    text-align: center;
-    color: antiquewhite;
-    box-sizing: border-box;
-   
-    
-}
 
 .text-effect{
     color: #fff6a9;
     font-family: 'Cabin', sans-serif;
-    font-size: 70px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     text-transform: capitalize;
-    margin: 10px auto 0;
     text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
     position: relative;
     animation: animate 2s ease-in-out infinite;
-    margin-top: 170px;
     margin-left: 90px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
+
 @keyframes animate{
     20%, 24%, 55%{
         color: #111;
@@ -98,21 +84,20 @@ h2 {
     font-weight: normal;
     font-size: 1.5rem;
     color: rgb(255, 253, 253);
-    margin-left: 60px;
+    margin-left: 10px;
   }
 
 
    .onethree-container {
     width: 100%;
-    padding: 10rem;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border: 10px solid rgb(52, 14, 156);
-    background-color: rgba(14, 2, 15, 0.911);
+    border: 2px solid rgb(241, 97, 97);
+    background-color: rgba(230, 196, 196, 0.911);
     flex-basis: 33%;
-    border-radius: 60px;
    }
    
   
@@ -131,17 +116,16 @@ h2 {
 
    .other a {
     
-    border: 8px solid rgba(111, 93, 146, 0.322);
-    background-color: rgba(139, 75, 139, 0.719);
+    border: 8px solid rgba(255, 255, 255, 0.322);
+    background-color: rgb(255, 255, 255);
     position: relative;
    text-align: center;
-    color: rgb(253, 204, 204);
-    padding: 25px 32px;
+    color: rgb(241, 101, 101);
+    padding: 15px 12px;
     text-decoration: none;
     font-size: 15px;
     cursor: pointer;
     float: center;
-    border-radius: 20px;
     margin-left: 10px;
     cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -150,8 +134,8 @@ h2 {
   }
 
   .other a:hover{
-    background-color: #3f3e3e77;
-    box-shadow: 0 12px 16px 0 rgba(214, 115, 115, 0.767),0 17px 50px 0 rgba(247, 154, 154, 0.19);
+    background-color: #fd4d4d;
+    box-shadow: 0 12px 16px 0 rgba(209, 181, 181, 0.767),0 17px 50px 0 rgba(247, 154, 154, 0.19);
 
   }
 

@@ -92,15 +92,16 @@ h2 {
 
    .onethree-container {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     font-family: 'Thasadith', sans-serif;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border: 2px solid rgb(241, 97, 97);
+    border: 2px solid rgb(0, 0, 0);
     background-color: rgb(255, 60, 0);
     flex-basis: 33%;
+    margin:30px;
    }
    
   

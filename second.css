@@ -12,19 +12,19 @@ body{
      background-position: center;
      background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Cabin', sans-serif;
  }
 
 header {
     position:fixed;
     width: 100%;
-    display: flex;
+    display: flex; 
     position: relative;
     font-size: 10px;
     background-color: rgb(255, 60, 0);
     text-decoration: none;
     justify-content:space-between ;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
  
 header ul li
@@ -46,7 +46,7 @@ header ul li a
 
 .text-effect{
     color: #101550;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -95,7 +95,6 @@ h2 {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    font-family: 'Spartan', sans-serif;
     flex-wrap: wrap;
     box-sizing: border-box;
     border: 2px solid rgb(0, 0, 0);
@@ -121,7 +120,7 @@ h2 {
    .other a {
     
     border: 2px solid rgb(255, 82, 82);
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Cabin', sans-serif;
     position: relative;
    text-align: center;
     color: rgb(0, 0, 0);

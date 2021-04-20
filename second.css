@@ -45,17 +45,19 @@ header ul li a
   
 
 .text-effect{
-    color: #101550;
+    color: #fff6a9;
     font-family: 'Cabin', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 200;
     text-align: center;
     text-transform: capitalize;
+    margin: 20px auto 0;
     text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
     position: relative;
     animation: animate 2s ease-in-out infinite;
+    margin-top:1px;
     margin-left: 90px;
-    margin-bottom: 30px;
+    margin-bottom: -70px;
 }
 
 @keyframes animate{

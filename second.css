@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+
 *
 
 
@@ -10,7 +12,7 @@ body{
      background-position: center;
      background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Thasadith', sans-serif;
  }
 
 header {
@@ -22,7 +24,7 @@ header {
     background-color: rgb(255, 60, 0);
     text-decoration: none;
     justify-content:space-between ;
-    font-family: 'Cabin', sans-serif; 
+    font-family: 'Thasadith', sans-serif;
 }
  
 header ul li
@@ -44,7 +46,7 @@ header ul li a
 
 .text-effect{
     color: #101550;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Thasadith', sans-serif;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -93,6 +95,7 @@ h2 {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
+    font-family: 'Thasadith', sans-serif;
     flex-wrap: wrap;
     box-sizing: border-box;
     border: 2px solid rgb(241, 97, 97);
@@ -116,20 +119,19 @@ h2 {
 
    .other a {
     
-    border: 8px solid rgba(255, 255, 255, 0.322);
+    border: 2px solid rgb(255, 82, 82);
     position: relative;
    text-align: center;
-    color: rgb(2, 1, 1);
+    color: rgb(0, 0, 0);
     padding: 15px 12px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
     float: center;
     margin-left: 10px;
     cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-    
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
   }
 
   .other a:hover{
@@ -142,7 +144,7 @@ h2 {
   
     .other a {
     
-        border: 1px solid rgba(206, 103, 103, 0.425);
+        border: 1px solid rgb(241, 167, 167);
         position: relative;
        text-align: center;
         color: rgb(255, 255, 255);

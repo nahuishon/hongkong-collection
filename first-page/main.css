@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Cabin', sans-serif;
-    background-color:rgb(185, 44, 204);
+  background-color: rgb(184, 32, 146);
     
   }
   body{
@@ -30,6 +30,45 @@ header {
   
     
 }
+
+.text-effect{
+  color: #fff6a9;
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px auto 0;
+  text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
+  position: relative;
+  animation: animate 2s ease-in-out infinite;
+  margin-top:1px;
+  margin-left: 90px;
+  margin-bottom: -70px;
+}
+
+@keyframes animate{
+  20%, 24%, 55%{
+      color: #111;
+      text-shadow: none;
+  }
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100%{
+      color: #fff6a9;
+      text-shadow: 0 0 5px #ff3300, 0 0 15px #ff3c00, 0 0 20px #ff3c00, 0 0 40px #ff00b3, 0 0 60px #ff0000, 0 0 10px #ff00b3, 0 0 98px #ff0000;
+  }
+}
+@media only screen and (max-width: 990px){
+  .text-effect{ font-size: 40px; }
+}
+@media only screen and (max-width: 767px){
+  .text-effect{ font-size: 35px; }
+}
+@media only screen and (max-width: 479px){
+  .text-effect{ font-size: 13px; }
+}
+@media only screen and (max-width: 329px){
+  .text-effect{ font-size: 12px; }
+}
  
 header ul li
 {
@@ -56,7 +95,7 @@ header ul li a
   }
 
   .container {
-      background-color: rgb(162, 1, 226);
+    background-color: rgb(184, 32, 146);
     padding: 2rem;
   }
   
@@ -83,7 +122,7 @@ header ul li a
   
   .film-container {
     width: 100%;
-    background-color: rgb(149, 49, 158);
+    background-color: rgb(184, 32, 146);
     color: rgb(202, 198, 198);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -91,19 +130,19 @@ header ul li a
     padding: 1rem;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 35px;
+    border-radius: 55px;
   }
   
   .image-container {
-    width: 100%;
+    width: 30%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
   }
   .film-container:hover {
-    border: 10px solid rgb(10, 10, 10);
-    border-radius: 25px;
-    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(235, 158, 158);
+    border-radius: 55px;
+    background-color: rgba(27, 27, 27, 0.199);
     cursor: pointer;
   }
   
@@ -112,9 +151,10 @@ header ul li a
   }
 
   .filter {
-    padding: 4rem;
-    letter-spacing: 4px;
+    padding: 6rem;
+    letter-spacing: 2.7px;
     cursor: pointer;
+    align-items: center;
     color: rgb(255, 255, 255);
   }
   

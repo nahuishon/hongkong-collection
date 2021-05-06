@@ -94,52 +94,52 @@ function showFilms() {
         var filterDrama = document.querySelector(".js-drama");
        filterDrama.addEventListener("click", function() {
       if (filmContainer.classList.contains("Drama")) {
-        filmContainer.style.background = "black";
+        filmContainer.style.background = "gray";
       } else {
-        filmContainer.style.background = "rgb(190, 54, 54);";
+        filmContainer.style.background =  "rgb(184, 32, 146)";
       }
     });
 
     var filterRomance = document.querySelector(".js-romance");
     filterRomance.addEventListener("click", function() {
       if (filmContainer.classList.contains("Romance")) {
-        filmContainer.style.background = "black";
+        filmContainer.style.background = "gray";
       } else {
-        filmContainer.style.background = "rgb(190, 54, 54);";
+        filmContainer.style.background =  "rgb(184, 32, 146)";
       }
     });
 
     var filterAction = document.querySelector(".js-action");
     filterAction.addEventListener("click", function() {
       if (filmContainer.classList.contains("Action")) {
-        filmContainer.style.background = "black";
+        filmContainer.style.background = "gray";
       } else {
-        filmContainer.style.background = "rgb(190, 54, 54);";
+        filmContainer.style.background =  "rgb(184, 32, 146)";
       }
     });
 
     var filterComedy = document.querySelector(".js-comedy");
     filterComedy.addEventListener("click", function() {
       if (filmContainer.classList.contains("Comedy")) {
-        filmContainer.style.background = "black";
+        filmContainer.style.background = "gray";
       } else {
-        filmContainer.style.background = "rgb(190, 54, 54);";
+        filmContainer.style.background =  "rgb(184, 32, 146)";
       }
     });
 
     var filterFantasy = document.querySelector(".js-fantasy");
     filterFantasy.addEventListener("click", function() {
       if (filmContainer.classList.contains("Fantasy")) {
-        filmContainer.style.background = "black";
+        filmContainer.style.background = "gray";
       } else {
-        filmContainer.style.background = "rgb(190, 54, 54);";
+        filmContainer.style.background =  "rgb(184, 32, 146)";
       }
     });
 
     // filter reset
     var filterReset = document.querySelector(".js-reset");
     filterReset.addEventListener("click", function() {
-      filmContainer.style.background = "rgb(190, 54, 54)";
+      filmContainer.style.background = "rgb(184, 32, 146)";
     });
 
     });

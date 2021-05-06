@@ -3,8 +3,9 @@
 
 
 
+
 body{
-    background-image:url("/light.jpg");
+    background-color: rgb(184, 32, 146);
     background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -15,6 +16,7 @@ body{
 
 header {
     position:fixed;
+    background-color: rgb(184, 32, 146);
     top:50px;
     left:10px;
     margin-bottom: 30px;
@@ -23,7 +25,7 @@ header {
     position: relative;
     font-size: 30px;
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:rgb(248, 248, 248);
     justify-content:space-between ;
     font-family: 'Cabin', sans-serif;
   
@@ -34,19 +36,19 @@ header ul li
 {
     position: relative;
     list-style: none;
+    color:white;
 }
 header ul li a 
 {
     position: relative;
     font-size: 30px;
     text-decoration: none;
-    color:rgb(247, 247, 247);
+    color:rgb(255, 255, 255);
     letter-spacing: 1px;
     font-weight: 300px;
 }
    
 h1{
-    font-size: 30px;
     position: relative;
     text-align: center;
     color: antiquewhite;
@@ -55,18 +57,19 @@ h1{
 .text-effect{
     color: #fff6a9;
     font-family: 'Cabin', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 200;
     text-align: center;
     text-transform: capitalize;
     margin: 20px auto 0;
     text-shadow: 0 0 5px #ff0000, 0 0 15px #ff008c, 0 0 20px #ff0000, 0 0 40px #f700ff, 0 0 60px #ff0000, 0 0 10px #e100ff, 0 0 98px #ff0000;
     position: relative;
     animation: animate 2s ease-in-out infinite;
-    margin-top: 230px;
+    margin-top:1px;
     margin-left: 90px;
-    margin-bottom: 100px;
+    margin-bottom: -70px;
 }
+
 @keyframes animate{
     20%, 24%, 55%{
         color: #111;
@@ -81,14 +84,15 @@ h1{
     .text-effect{ font-size: 100px; }
 }
 @media only screen and (max-width: 767px){
-    .text-effect{ font-size: 80px; }
+    .text-effect{ font-size: 25px; }
 }
 @media only screen and (max-width: 479px){
-    .text-effect{ font-size: 60px; }
+    .text-effect{ font-size: 13px; }
 }
-@media only screen and (max-width: 359px){
-    .text-effect{ font-size: 45px; }
+@media only screen and (max-width: 329px){
+    .text-effect{ font-size: 12px; }
 }
+
 
 
 h2 {
@@ -106,35 +110,29 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border: 1px solid rgb(231, 82, 82);
+    border: 1px solid rgb(252, 252, 252);
     flex-basis: 33%;
    }
    
   
    
    .seven-image {
-       width: 200PX;
-       height: auto;
-       align-self: center;
-   }
-
-   .film-title{
-    width: 300PX;
+    width: 200PX;
     height: auto;
     align-self: center;
    }
 
    .other a {
     
-    border: 2px solid rgb(206, 103, 103);
+    border: 2px solid rgba(206, 103, 103, 0);
     position: relative;
    text-align: center;
     color: rgb(255, 255, 255);
-    padding: 25px 52px;
+    padding: 15px 42px;
     text-decoration: none;
-    font-size: 16px;
+    margin-top: 55px;
+    font-size: 18px;
     cursor: pointer;
-    width:170px;
     float: left;
     cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -197,14 +195,14 @@ h2 {
         list-style: none;
     }
 
-     header ul li a {
- font-size: 15px;
-text-align: center;
-text-decoration: none;
-color:rgb(255, 255, 255);
-letter-spacing: 1px;
-font-weight: 300px;
-transition: 0.6s;
- }
-
-}
+    header ul li a {
+        font-size: 15px;
+       text-align: center;
+       text-decoration: none;
+       color:rgb(255, 255, 255);
+       letter-spacing: 1px;
+       font-weight: 300px;
+       transition: 0.6s;
+        }
+       
+       }

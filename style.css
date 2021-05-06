@@ -91,27 +91,25 @@ header ul li a
 
 .btn-group {
     text-align: center;
-    position: relative;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
     align-items: center;
 }
-
 .btn-group a {
     background-color:#E92EE6;
     border: 5px solid rgba(15, 18, 61, 0.986);
     color: rgb(0, 0, 0);
-    padding: 25px 42px;
+    /* padding: 25px 42px; */
+    padding: 5%;
     text-decoration: none;
     font-size: 30px;
     cursor: pointer;
     width:170px;
     display: block;
     position: relative;
-    margin-left: 600px ;
-  }
-
-
-  .btn-group a:hover{
-    background-color: #f8a7e49f;
+    /* margin-left: 600px ; */
   }
 
    
